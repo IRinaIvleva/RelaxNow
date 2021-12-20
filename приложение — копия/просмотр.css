@@ -1,0 +1,85 @@
+body {
+background:#E5E5E5;
+position: relative;
+transform: scale(75%)
+top: 0px;
+}
+
+.second-gg-1 {
+
+ position:absolute;
+left: 37.17%;
+top: -13px;
+} 
+ 
+.second-gg-1 {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+} 
+
+.second-gg-1:hover { 
+opacity:1;
+
+  filter:alpha (opacity=100);
+} /* при наведении курсора мышки */
+.click-k-1 {
+
+ position:absolute;
+left: 18.5%;
+top: 80px;
+} 
+
+
+.click-k-1 {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+}
+.click-k-1:hover { 
+opacity:1;
+
+  filter:alpha (opacity=100);
+} /* при наведении курсора мышки */
+.click-k-2 {
+
+ position:absolute;
+left: 42%;
+top: 80px;
+} 
+
+
+.click-k-2 {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+}
+.click-k-2:hover { 
+opacity:1;
+
+  filter:alpha (opacity=100);
+} /* при наведении курсора мышки */
+.click-k-3 {
+
+ position:absolute;
+left: 66%;
+top: 80px;
+} 
+
+
+.click-k-3 {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+}
+.click-k-3:hover { 
+opacity:1;
+
+  filter:alpha (opacity=100);
+} /* при наведении курсора мышки */
+
+

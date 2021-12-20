@@ -1,0 +1,66 @@
+body {
+background:#E5E5E5;
+position: relative;
+transform: scale(80%)
+top: 0px;
+}
+.bkgrnd-au{
+            position:relative;
+            width: 1920px;
+            height: 2000px;
+			left: 16%;
+
+        }
+.inst {
+
+ position: absolute;
+left: 32%;
+top: 2900px;
+} 
+
+/*картинки будут размещены друг под другом.*/
+.inst img {
+  
+position:absolute; 
+  left: 0; 
+  top: 0; 
+
+} 
+.inst img.second-inst {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+} 
+.inst:hover img.second-inst{ 
+opacity:1;
+
+  filter:alpha (opacity=100);
+} /* при наведении курсора мышки */
+.gg {
+
+ position: absolute;
+left: 32%;
+top: -130px;
+} 
+
+/*картинки будут размещены друг под другом.*/
+.gg img {
+  
+position:absolute; 
+  left: 0; 
+  top: 0; 
+
+} 
+.gg img.second-gg {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+} 
+.gg:hover img.second-gg{ 
+opacity:1;
+
+  filter:alpha (opacity=100);
+} /* при наведении курсора мышки */
+

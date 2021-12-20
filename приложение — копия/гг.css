@@ -1,0 +1,116 @@
+body {
+background:#E5E5E5;
+position: relative;
+transform: scale(75%)
+top: 0px;
+}
+.bkgrnd-gg{
+            position:relative;
+            width: 1920px;
+            height: 2000px;
+			left: 16%;
+
+        }
+.back {
+
+ position: absolute;
+left: 16%;
+top: 115px;
+} 
+
+/*картинки будут размещены друг под другом.*/
+.back img {
+  
+position:absolute; 
+  left: 0; 
+  top: 0; 
+
+} 
+.back img.second-back {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+} 
+.back:hover img.second-back{ 
+opacity:1;
+
+  filter:alpha (opacity=100);
+} /* при наведении курсора мышки */
+.click-k {
+
+ position: absolute;
+left: 20%;
+top: 3005px;
+} 
+
+.click-k {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+} 
+.click-k:hover { 
+opacity:1;
+  filter:alpha (opacity=100);
+   transition: 1s;
+} /* при наведении курсора мышки */
+.click-m {
+
+ position: absolute;
+left: 20.5%;
+top: 3590px;
+} 
+
+.click-m {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+} 
+.click-m:hover { 
+opacity:1;
+
+  filter:alpha (opacity=100);
+  transition: 1s;
+} /* при наведении курсора мышки */
+.click-p {
+
+ position: absolute;
+left: 56.5%;
+top: 3590px;
+} 
+
+.click-p {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+} 
+.click-p:hover { 
+opacity:1;
+
+  filter:alpha (opacity=100);
+  transition: 1s;
+} /* при наведении курсора мышки */
+.click-ch {
+
+ position: absolute;
+left: 56.5%;
+top: 3005px;
+} 
+
+.click-ch {
+  
+  opacity:0;
+  filter:alpha (opacity=0);
+
+} 
+.click-ch:hover { 
+opacity:1;
+
+  filter:alpha (opacity=100);
+  transition: 1s;
+} /* при наведении курсора мышки */
+
+
